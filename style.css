@@ -7,7 +7,7 @@ body{
     position : fixed;
     z-index: 9999;
     background : url('img/anim--hamburger.gif') 50% 50% no-repeat;
-    background-color: #fff;
+    background-color: #FFF;
     top : 0px;
     left : 0px;
     height : 100%;
