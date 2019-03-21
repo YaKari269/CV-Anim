@@ -1,0 +1,333 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#CV{
+    background-image: url('img/Header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1200px;
+    margin: auto;
+}
+h1{
+	text-align:center;
+	margin:0;
+}
+
+#container{
+	position: relative;
+	font-family : sans-serif;
+    width: 50%;
+    height: 530px;
+    margin-top: 70px;
+	margin-left: 10px;
+    overflow: hidden;
+}
+div#competence {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div#ligne {
+    position: absolute;
+    background-color: #A52A2A;
+    width: 130px;
+    height: 2px;
+    top: 40px;
+    left: 20px;
+}
+
+div#reseau {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+}
+
+div#langage {
+    position: absolute;
+    top: 125px;
+    left: 20px;
+}
+
+div#langageR{
+	position: absolute;
+	top: 165px;
+	left: 20px;
+}
+
+div#SGBDR{
+	position: absolute;
+	top: 205px;
+	left: 20px;
+}
+
+div#plateforme{
+	position: absolute;
+	top: 245px;
+	left: 20px;
+}
+
+div#dev{
+	position: absolute;
+	top: 285px;
+	left: 20px;
+}
+
+div#graph{
+	position: absolute;
+	top: 325px;
+	left: 20px;
+}
+
+div#bureau{
+	position: absolute;
+	top: 365px;
+	left: 20px;
+}
+
+div#systeme{
+	position: absolute;
+	top: 405px;
+	left: 20px;
+}
+
+div#collabo{
+	position: absolute;
+	top: 445px;
+	left: 20px;
+}
+
+div#langue{
+	position: absolute;
+	top: 485px;
+	left: 20px;
+}
+
+
+div#experience {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div#ligne2 {
+    position: absolute;
+    background-color: red;
+    width: 233px;
+    height: 2px;
+    top: 40px;
+    left: 20px;
+}
+
+div#s2015 {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+}
+
+.entete2{
+	margin-left: 60px;
+}
+
+div#tache {
+    position: absolute;
+    top: 105px;
+    left: 115px;
+    font-size: 13px;
+}
+
+div#tache2{
+	position: absolute;
+	top: 125px;
+	left: 115px;
+	font-size: 13px;
+}
+
+div#tache3{
+	position: absolute;
+	top: 145px;
+	left: 115px;
+	font-size: 13px;
+}
+
+div#a2014{
+	position: absolute;
+	top: 245px;
+	left: 20px;
+}
+
+.entete3{
+	margin-left: 25px;
+}
+
+
+div#tache4{
+	position: absolute;
+    top: 265px;
+    left: 115px;
+    font-size: 13px;
+}
+
+div#tache5{
+	position: absolute;
+    top: 285px;
+    left: 115px;
+    font-size: 12px;
+}
+
+div#j2014{
+	position: absolute;
+	top: 365px;
+	left: 20px;
+}
+
+.entete4{
+	margin-left: 25px;
+}
+
+div#tache6{
+	position: absolute;
+    top: 385px;
+    left: 115px;
+    font-size: 13px;
+}
+
+div#tache7{
+	position: absolute;
+    top: 405px;
+    left: 115px;
+    font-size: 13px;
+}
+
+div#formation {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div#ligne3 {
+    position: absolute;
+    background-color: orange;
+    width: 115px;
+    height: 2px;
+    top: 40px;
+    left: 20px;
+}
+
+div#f2016 {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+}
+
+.opt{
+	margin-left: 60px;
+	font-size: 13px;
+}
+
+div#option {
+    position: absolute;
+    top: 105px;
+    left: 115px;
+    font-size: 13px;
+}
+
+div#f2015{
+	position: absolute;
+	top: 245px;
+	left: 20px;
+}
+
+.opt2{
+	margin-left: 19px;
+	font-size: 13px;
+}
+
+div#option2{
+	position: absolute;
+    top: 265px;
+    left: 115px;
+    font-size: 13px;
+}
+
+div#f2013{
+	position: absolute;
+	top: 365px;
+	left: 20px;
+}
+
+div#option3{
+	position: absolute;
+    top: 385px;
+    left: 115px;
+    font-size: 13px;
+}
+
+div#act {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div#ligne4 {
+    position: absolute;
+    background-color: yellow;
+    width: 193px;
+    height: 2px;
+    top: 40px;
+    left: 20px;
+}
+
+div#diver{
+	position: absolute;
+	top: 245px;
+	left: 20px;
+}
+
+div#contact{
+	position: absolute;
+    top: 175px;
+    left: 10%;
+	font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    #CV{
+        width: 100%;
+        background-image: none;
+        background-color: grey;
+    }
+
+    #container{
+        width: 100%;
+        font-size: 100%;
+    }
+
+
+}
+
+span, span.entete{
+	font-weight: bold;
+}
+
+#nav{
+	position : relative;
+	width : 102px;
+	height : 30px;
+	margin : auto;
+	margin-top : 5px;
+}
+
+.btn{
+	width : 30px;
+	height : 30px;
+	margin-right : 2px;
+	margin-left : 2px;
+	float : left;
+	cursor : pointer;
+}
+
+
