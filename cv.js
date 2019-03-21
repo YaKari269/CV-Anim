@@ -1,5 +1,5 @@
 //Chargement de la page
-$(window).load(function() {
+window.load(function() {
 	$(".loader").fadeOut('1000');
 });
 
