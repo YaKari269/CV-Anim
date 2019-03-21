@@ -3,6 +3,7 @@ $(window).load(function() {
 	$(".loader").fadeOut('1000');
 });
 
+window.onload = function() {init()};
 function init(){
 	var competence = document.getElementById('competence'),
 		ligne = document.getElementById('ligne'),
